@@ -1,0 +1,9 @@
+global using Microsoft.AspNetCore.Mvc;
+global using Proget.Messaging.Brokers.RabbitMq;
+global using Proget.CQRS.Commands.Extensions;
+global using Proget.CQRS.Events.Extensions;
+global using Proget.Messaging;
+global using Proget.CQRS.Commands;
+global using Proget.Extensions;
+global using MicroSender.Core.Extensions;
+global using MicroSender.Core.Commands;

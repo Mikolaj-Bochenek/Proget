@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.WebAPI</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Mikołaj Bochenek</Authors>
+    <Company>Progmat</Company>
+    <Description>This package implements Web API related solutions.</Description>
+    <PackageId>Proget.WebAPI</PackageId>
+    <PackageTags>Progmat Proget CQRS Commands</PackageTags>
+    <PackageReleaseNotes>This package implements Web API related solutions.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Proget\src\Proget\Proget.csproj" />
+  </ItemGroup>
+</Project>

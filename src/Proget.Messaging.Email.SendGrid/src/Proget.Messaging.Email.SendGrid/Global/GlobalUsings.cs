@@ -1,0 +1,14 @@
+﻿global using System;
+global using Microsoft.Extensions.DependencyInjection;
+global using Proget.Messaging.Email.SendGrid.Publishers;
+global using Proget.Messaging.Email.SendGrid.Exceptions;
+global using Proget.Messaging.Email.SendGrid.Builders;
+global using Proget.Messaging.Email.Publishers.Media;
+global using Proget.Messaging.Email.SendGrid.Options;
+global using Proget.Messaging.Email.Configurators;
+global using Proget.Messaging.Email.Options;
+global using Proget.Messaging.Email.Models;
+global using Proget.Extensions;
+global using Proget.Options;
+global using SendGrid.Helpers.Mail;
+global using SendGrid;

@@ -1,0 +1,7 @@
+POST http://localhost:5146/sender/sender HTTP/1.1
+content-type: application/json
+
+{
+    "code": 123,
+    "name": "Test Message 1"
+}

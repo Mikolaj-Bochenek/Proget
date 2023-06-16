@@ -1,0 +1,27 @@
+﻿global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Caching.Memory;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using System.IdentityModel.Tokens.Jwt;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Runtime.Serialization;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using System.Security.Claims;
+global using Proget.Auth.Middleware;
+global using Proget.Auth.Extensions;
+global using Proget.Auth.Exceptions;
+global using Proget.Auth.Handlers;
+global using Proget.Auth.Builders;
+global using Proget.Auth.Services;
+global using Proget.Auth.Types;
+global using Proget.Extensions;
+global using System.Text.Json;
+global using Proget.Options;
+global using System.Text;
+global using System.Net;
+global using Proget;
+
+global using UnauthorizedResult = Proget.Auth.Exceptions.UnauthorizedResult;

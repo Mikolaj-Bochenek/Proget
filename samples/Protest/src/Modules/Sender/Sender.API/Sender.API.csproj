@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Project references in scope of this module -->
+    <ProjectReference Include="..\Sender.Core\Sender.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Proget -->
+    <ProjectReference Include="..\..\..\..\..\..\src\Proget.WebAPI\src\Proget.WebAPI\Proget.WebAPI.csproj" />
+  </ItemGroup>
+</Project>

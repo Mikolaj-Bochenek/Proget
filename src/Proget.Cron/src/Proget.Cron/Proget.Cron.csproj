@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.Cron</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Adrian Moskal</Authors>
+    <Company>Progmat</Company>
+    <Description>This package provides scheduled background job.</Description>
+    <PackageId>Proget.Cron</PackageId>
+    <PackageTags>Progmat Proget Cron</PackageTags>
+    <PackageReleaseNotes>This package provides scheduled background job.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- QUARTZ -->
+    <PackageReference Include="Quartz" Version="3.4.0" />
+
+    <!-- Local Proget -->
+    <ProjectReference Include="..\..\..\Proget\src\Proget\Proget.csproj" />
+  </ItemGroup>
+
+</Project>

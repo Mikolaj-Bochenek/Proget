@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.CQRS.Logging</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Mikołaj Bochenek</Authors>
+    <Company>Progmat</Company>
+    <Description>This package implements CQRS logging.</Description>
+    <PackageId>Proget.CQRS.Logging</PackageId>
+    <PackageTags>Progmat Proget CQRS Logging</PackageTags>
+    <PackageReleaseNotes>This package implements CQRS logging.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- SCRUTOR -->
+    <PackageReference Include="Scrutor" Version="4.1.0" />
+
+    <!-- SMARTFORMAT.NET -->
+    <PackageReference Include="SmartFormat.NET" Version="2.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Local Proget -->
+    <ProjectReference Include="..\..\..\Proget.CQRS.Commands\src\Proget.CQRS.Commands\Proget.CQRS.Commands.csproj" />
+    <ProjectReference Include="..\..\..\Proget.CQRS.Events\src\Proget.CQRS.Events\Proget.CQRS.Events.csproj" />
+    <ProjectReference Include="..\..\..\Proget.CQRS.Queries\src\Proget.CQRS.Queries\Proget.CQRS.Queries.csproj" />
+    <ProjectReference Include="..\..\..\Proget\src\Proget\Proget.csproj" />
+  </ItemGroup>
+
+</Project>

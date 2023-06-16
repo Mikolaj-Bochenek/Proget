@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Mikołaj Bochenek</Authors>
+    <Company>Progmat</Company>
+    <Description>The main entry point for Proget NuGet library.</Description>
+    <PackageId>Proget</PackageId>
+    <PackageTags>Progmat Proget</PackageTags>
+    <PackageReleaseNotes>The main entry point for Proget NuGet library.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" Version="2.2.8"/>
+    <PackageReference Include="Figgle" Version="0.4.0"/>
+  </ItemGroup>
+</Project>

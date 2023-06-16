@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.ModularMonolith</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Mikołaj Bochenek</Authors>
+    <Company>Progmat</Company>
+    <Description>This package helps build modular monolith application.</Description>
+    <PackageId>Proget.ModularMonolith</PackageId>
+    <PackageTags>Progmat Proget Messaging Sms</PackageTags>
+    <PackageReleaseNotes>This package helps build modular monolith application.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Proget\src\Proget\Proget.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="SMSAPI.pl" Version="1.0.9" />
+  </ItemGroup>
+
+</Project>

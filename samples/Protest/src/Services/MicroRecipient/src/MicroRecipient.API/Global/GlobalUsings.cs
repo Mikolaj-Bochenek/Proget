@@ -1,0 +1,10 @@
+global using Microsoft.AspNetCore.Mvc;
+global using Proget.Messaging.Brokers.RabbitMq;
+global using Proget.CQRS.Queries.Extensions;
+global using Proget.CQRS.Events.Extensions;
+global using Proget.Messaging;
+global using Proget.CQRS.Queries;
+global using Proget.Extensions;
+global using MicroRecipient.Core.Domain.Entities;
+global using MicroRecipient.Core.Extensions;
+global using MicroRecipient.Core.Queries;

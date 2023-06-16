@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.Messaging.InMemory</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Mikołaj Bochenek</Authors>
+    <Company>Progmat</Company>
+    <Description>This package implements in-memory messaging.</Description>
+    <PackageId>Proget.Messaging.InMemory</PackageId>
+    <PackageTags>Progmat Proget Messaging InMemory</PackageTags>
+    <PackageReleaseNotes>This package implements in-memory messaging.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Local Proget -->
+    <ProjectReference Include="..\..\..\Proget\src\Proget\Proget.csproj" />
+    <ProjectReference Include="..\..\..\Proget.Messaging\src\Proget.Messaging\Proget.Messaging.csproj" />
+  </ItemGroup>
+</Project>

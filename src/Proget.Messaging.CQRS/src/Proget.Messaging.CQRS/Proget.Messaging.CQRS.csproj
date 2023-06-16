@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.Messaging.CQRS</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Mikołaj Bochenek</Authors>
+    <Company>Progmat</Company>
+    <Description>This package implements messaging CQRS.</Description>
+    <PackageId>Proget.Messaging.CQRS</PackageId>
+    <PackageTags>Progmat Proget Messaging CQRS</PackageTags>
+    <PackageReleaseNotes>This package implements messaging CQRS.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Local Proget -->
+    <ProjectReference Include="..\..\..\Proget.Messaging\src\Proget.Messaging\Proget.Messaging.csproj" />
+    <ProjectReference Include="..\..\..\Proget.CQRS.Events\src\Proget.CQRS.Events\Proget.CQRS.Events.csproj" />
+  </ItemGroup>
+</Project>

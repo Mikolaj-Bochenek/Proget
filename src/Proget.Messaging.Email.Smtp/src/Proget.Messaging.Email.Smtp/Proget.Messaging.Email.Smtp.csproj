@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.Messaging.Email.Smtp</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Adrian Moskal</Authors>
+    <Company>Progmat</Company>
+    <Description>This package implements email messaging by smtp client.</Description>
+    <PackageId>Proget.Messaging.Email.Smtp</PackageId>
+    <PackageTags>Progmat Proget Messaging Email Smtp</PackageTags>
+    <PackageReleaseNotes>This package implements email messaging by smtp client.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Proget.Messaging.Email\src\Proget.Messaging.Email\Proget.Messaging.Email.csproj" />
+  </ItemGroup>
+
+</Project>

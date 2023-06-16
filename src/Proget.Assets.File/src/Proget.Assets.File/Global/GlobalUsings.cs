@@ -1,0 +1,13 @@
+﻿global using FileOptions = Proget.Assets.File.Options.FileOptions;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.FileProviders;
+global using Proget.Assets.Services.Providers;
+global using Microsoft.AspNetCore.Builder;
+global using Proget.Assets.Configurators;
+global using Proget.Assets.File.Services;
+global using Proget.Assets.File.Builders;
+global using Microsoft.AspNetCore.Http;
+global using Proget.Assets.Extensions;
+global using Proget.Assets.Models;
+global using Proget.Extensions;
+global using Proget.Options;

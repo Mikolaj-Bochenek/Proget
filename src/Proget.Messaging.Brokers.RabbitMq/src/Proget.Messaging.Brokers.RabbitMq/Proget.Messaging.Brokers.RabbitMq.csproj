@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Proget.Messaging.Brokers.RabbitMq</AssemblyName>
+    <Title>Proget</Title>
+    <Authors>Mikołaj Bochenek</Authors>
+    <Company>Progmat</Company>
+    <Description>This package implements RabbitMq broker messaging.</Description>
+    <PackageId>Proget.Messaging.Brokers.RabbitMq</PackageId>
+    <PackageTags>Progmat Proget Messaging Brokers RabbitMq</PackageTags>
+    <PackageReleaseNotes>This package implements RabbitMq broker messaging.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Progmat-Company/Proget/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Progmat-Company/Proget</RepositoryUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Proget references -->
+    <ProjectReference Include="..\..\..\Proget.Messaging\src\Proget.Messaging\Proget.Messaging.csproj" />
+
+    <!-- Third praty libraries -->
+    <PackageReference Include="RabbitMQ.Client" Version="6.3.0" />
+  </ItemGroup>
+
+</Project>

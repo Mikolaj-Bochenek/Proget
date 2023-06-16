@@ -1,0 +1,1 @@
+﻿global using Proget.Assets.Amazon.Options;

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Proget -->
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget\src\Proget\Proget.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.CQRS.Commands\src\Proget.CQRS.Commands\Proget.CQRS.Commands.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.CQRS.Queries\src\Proget.CQRS.Queries\Proget.CQRS.Queries.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.CQRS.Events\src\Proget.CQRS.Events\Proget.CQRS.Events.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.Messaging\src\Proget.Messaging\Proget.Messaging.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.Abstractions\src\Proget.Abstractions\Proget.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.Messaging.InMemory\src\Proget.Messaging.InMemory\Proget.Messaging.InMemory.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.Messaging.Brokers.RabbitMq\src\Proget.Messaging.Brokers.RabbitMq\Proget.Messaging.Brokers.RabbitMq.csproj" />
+    <ProjectReference Include="..\..\..\..\..\..\..\src\Proget.ORM.EntityFramework\src\Proget.ORM.EntityFramework\Proget.ORM.EntityFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Third party packages -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2"/>
+  </ItemGroup>
+
+</Project>

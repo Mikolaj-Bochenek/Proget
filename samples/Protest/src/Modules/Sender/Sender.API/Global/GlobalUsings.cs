@@ -1,0 +1,9 @@
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.AspNetCore.Mvc;
+global using Sender.Core.Extensions;
+global using Sender.Core.Commands;
+global using Proget;
+global using Proget.WebAPI.Controllers;
+global using Proget.CQRS.Commands;
+global using Proget.Auth;
+global using Proget.Auth.Types;

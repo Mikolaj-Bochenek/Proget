@@ -1,0 +1,22 @@
+@token = aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWFlZjk3M2Q4Y2U0YzkyOTViNDM2MzViYjJkNDJkNSIsInVuaXF1ZV9uYW1lIjoiYWFhZWY5NzNkOGNlNGM5Mjk1YjQzNjM1YmIyZDQyZDUiLCJqdGkiOiJiMWM1ZTMzNGMyMjg0YzA5YTllYjk3ZjU4MjI4N2RiZCIsImlhdCI6IjE2NjY2MDAwNDAiLCJhdWQiOiJwcm90ZXN0IiwiUGVybWlzc2lvbnMiOiJQdWJsaWMiLCJuYmYiOjE2NjY2MDAwNDAsImV4cCI6MTY2NjYwMzY0MCwiaXNzIjoicHJvdGVzdCJ9.bhYi-YFoXkRcvIXh2o4ZaZTnUzVUrpuYiDZJwiGOvgk
+###
+# @name send-message
+POST http://localhost:5270/sender/sender/send-message HTTP/1.1
+content-type: application/json
+Authorization: {{token}}
+
+{
+    "code": 123,
+    "name": "Test Message 1"
+}
+
+###
+# @name sign-in
+POST http://localhost:5270/sender/sender/sign-in HTTP/1.1
+content-type: application/json
+
+{
+    "userId": "aaaef973-d8ce-4c92-95b4-3635bb2d42d5",
+    "type": "Permissions",
+    "claims": "UserBase,BaseUser,Test"
+}
